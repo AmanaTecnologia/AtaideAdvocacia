@@ -82,13 +82,14 @@ body {
 /*logo subindo*/
 .logoAnimado {
   opacity: 1;
-  height: 750px;
-  width: 100%;
   padding-top: 10%;
   animation: slide-up 1.5s ease-out;
   z-index: 1000;
 }
 
+.logoAnimado img{
+  width: 40%;
+}
 /*animação*/
 @keyframes slide-up {
   0% {
@@ -323,10 +324,9 @@ body {
     position: absolute;
     width: 100%;
     height: 200px;
-    object-fit: cover;
+    object-fit:cover;
     opacity: 0.5;
-
-  }
+ }
 
   /*Div que contém a largura completa*/
   .divLeft {
