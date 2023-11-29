@@ -55,7 +55,6 @@ body {
 
 /*Início navbar*/
 .navbar-nav{
-  /* background-color: #1D1A55; */
   margin: 0px 100px;
 }
 /*Navbar para mudar a cor ao passar o mouse*/
@@ -249,7 +248,7 @@ figure{
   padding: 10px;
   top: 20px;
   right: 40px;
-  background-color: #710012;
+  background-color: #1D1A55;
   color: #FFF;
   border-radius: 30px;
   text-align: center;
