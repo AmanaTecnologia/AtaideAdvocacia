@@ -1,7 +1,7 @@
 /*Estutura do site*/
 /*cor da página*/
 body {
-  background-color: white;
+  background-color: #EBEBEB;
   text-align: center;
 }
 
@@ -13,10 +13,10 @@ body {
 
 /*titulos do site*/
 .titulo {
-  font-family: 'Ysabeau Office', sans-serif;
-  color: #cf9b4b;
   font-size: 3.5em;
   margin-bottom: 1%;
+  color:#1D1A55;
+  /* COLOCAR A FONTE */
 }
 
 
@@ -118,8 +118,6 @@ body {
   margin-top: 5%;
   padding: auto;
   line-height: 2;
-  font-family: 'Ysabeau Office', sans-serif;
-  font-size: x-large;
 }
 
 /*Fim do quem somos*/
@@ -128,15 +126,14 @@ body {
 /*Início áreas de atuação*/
 /*cores dos ícones da área de atuação*/
 .content-icon {
-  color: #cf9b4b;
+  color: #1D1A55;
   margin-right: 2%;
+  font-size: xx-large;
 }
 
 .areaAtuacao a {
   text-decoration: none;
-  font-family: 'Ysabeau Office', sans-serif;
   color: black;
-  font-size: x-large;
 }
 
 .lineAreaAtuacao {
@@ -147,47 +144,6 @@ body {
 
 /*Fim áreas de atuação*/
 
-
-/*Início do Nossa Equipe + Advogados Parceiros*/
-/*ajuste da imagem e das cores de cada imagem dos advogados*/
-.smooth-zoom {
-  border-radius: 5px;
-  width: 100%;
-  transition: transform 0.3s ease;
-  /* Transição suave */
-  background: rgb(214, 214, 214);
-  background: linear-gradient(165deg, rgba(214, 214, 214, 1) 0%, rgba(249, 249, 249, 1) 100%);
-}
-
-/*Efeito de zoom quando passa o mouse*/
-.smooth-zoom:hover {
-  transform: scale(1.08);
-  /* Efeito de zoom suave */
-}
-
-/*para conter a imagem dos advogados dentro da div*/
-.holder2 {
-  overflow: hidden;
-  width: 300px;
-  height: 300px;
-  justify-content: center;
-  align-items: center;
-}
-
-/*Para alinhar o accordion com a imagem dos advogados*/
-.advogadosCard {
-  width: 60%;
-  overflow: hidden;
-}
-
-/*margim para não deixar o título colado com o nome dos advogados*/
-.nomesAdvogados {
-  margin-top: 10%;
-}
-
-/*Fim do Nossa Equipe + Advogados Parceiros*/
-
-
 /*Início do rodapé*/
 /*Para deixar fixado em baixo o rodapé*/
 .rodape {
@@ -195,15 +151,13 @@ body {
   padding-top: 3%;
   padding-bottom: 4%;
   line-height: 250%;
-  background-color: black;
+  background-color: #710012;
 
 }
 
 /*Estilo do rodapé*/
 .informationFooter {
-  font-size: 190%;
-  color: #c18824;
-  font-family: 'Ysabeau Office', sans-serif;
+  color: #EBEBEB;
 }
 
 
@@ -211,20 +165,16 @@ body {
 .mail {
   color: white;
   text-decoration: none;
-  font-size: 150%;
 }
 
 .telefones:hover {
   color: #c18824;
   text-decoration: none;
-  font-size: 170%;
-
 }
 
 .mail:hover {
   color: #c18824;
   text-decoration: none;
-  font-size: 155%;
 }
 
 .logos1,
@@ -304,8 +254,7 @@ body {
 
   /*titulos do site*/
   .titulo {
-    font-family: 'Ysabeau Office', sans-serif;
-    color: #cf9b4b;
+    color: #710012;
     font-size: 2em;
     margin-bottom: 1%;
   }
@@ -358,7 +307,6 @@ body {
     text-align: justify;
     padding: auto;
     line-height: 1.5;
-    font-family: 'Ysabeau Office', sans-serif;
     font-size: medium;
   }
 
@@ -368,7 +316,7 @@ body {
   /*Início áreas de atuação*/
   /*cores dos ícones da área de atuação*/
   .content-icon {
-    color: #cf9b4b;
+    color: #1D1A55;
     margin-right: 2%;
     font-size: medium;
     text-align: justify;
@@ -376,7 +324,7 @@ body {
 
   .areaAtuacao a {
     text-decoration: none;
-    font-family: 'Ysabeau Office', sans-serif;
+    
     color: black;
     font-size: medium;
   }
@@ -430,7 +378,7 @@ body {
   .informationFooter {
     font-size: 125%;
     color: #c18824;
-    font-family: 'Ysabeau Office', sans-serif;
+    
   }
 
   .telefones,
@@ -525,8 +473,6 @@ body {
 
   /*titulos do site*/
   .titulo {
-    font-family: 'Ysabeau Office', sans-serif;
-    color: #cf9b4b;
     font-size: 2em;
     margin-bottom: 1%;
   }
@@ -580,7 +526,7 @@ body {
     text-align: justify;
     padding: auto;
     line-height: 1.5;
-    font-family: 'Ysabeau Office', sans-serif;
+    
     font-size: medium;
   }
 
@@ -594,7 +540,6 @@ body {
   /*Início áreas de atuação*/
   /*cores dos ícones da área de atuação*/
   .content-icon {
-    color: #cf9b4b;
     margin-right: 2%;
     font-size: medium;
     text-align: justify;
@@ -602,7 +547,7 @@ body {
 
   .areaAtuacao a {
     text-decoration: none;
-    font-family: 'Ysabeau Office', sans-serif;
+    
     color: black;
     font-size: medium;
   }
@@ -659,7 +604,7 @@ body {
   .informationFooter {
     font-size: 125%;
     color: #c18824;
-    font-family: 'Ysabeau Office', sans-serif;
+    
   }
 
   .telefones,
@@ -721,8 +666,6 @@ body {
 
   /*titulos do site*/
   .titulo {
-    font-family: 'Ysabeau Office', sans-serif;
-    color: #cf9b4b;
     font-size: 2em;
     margin-bottom: 1%;
   }
@@ -776,7 +719,7 @@ body {
     text-align: justify;
     padding: auto;
     line-height: 1.5;
-    font-family: 'Ysabeau Office', sans-serif;
+    
     font-size: medium;
   }
 
@@ -790,7 +733,6 @@ body {
   /*Início áreas de atuação*/
   /*cores dos ícones da área de atuação*/
   .content-icon {
-    color: #cf9b4b;
     margin-right: 2%;
     font-size: medium;
     text-align: justify;
@@ -798,7 +740,7 @@ body {
 
   .areaAtuacao a {
     text-decoration: none;
-    font-family: 'Ysabeau Office', sans-serif;
+    
     color: black;
     font-size: medium;
   }
@@ -851,7 +793,7 @@ body {
   .informationFooter {
     font-size: 125%;
     color: #c18824;
-    font-family: 'Ysabeau Office', sans-serif;
+    
   }
 
   .telefones,
