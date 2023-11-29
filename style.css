@@ -54,15 +54,26 @@ body {
 
 
 /*Início navbar*/
+.navbar-nav{
+  /* background-color: #1D1A55; */
+  margin: 0px 100px;
+}
 /*Navbar para mudar a cor ao passar o mouse*/
 .dropdown-menu a.dropdown-item:hover {
   background-color: #710012;
   opacity: 0.7;
-  color: #000;
+  color: white;
+}
+figure{
+  margin: 0;
 }
 
 .logoNavBar {
   width: 200px;
+}
+
+.bg-dark {
+  background-color: #710012 !important;
 }
 
 /*Fim navbar*/
@@ -275,8 +286,9 @@ body {
   }
 
   .bg-dark {
-    background-color: #710012;
-}
+    background-color: #710012 !important;
+  }
+
 
   /*Fim navbar*/
 

@@ -12,23 +12,22 @@ function redirecionarParaIndex() {
 
 var nav = document.querySelector('nav');
 
-var nav = document.querySelector('nav');
-
 window.addEventListener('scroll', function(){
-    if (window.pageYOffset > 200) {
-        nav.classList.add('bg-dark', 'shadow');
-        var textElements = nav.querySelectorAll('.colornav'); // Substitua 'colornav' pela classe real dos elementos de texto
-        textElements.forEach(function(element) {
-            element.style.color = 'white';
-        });
-    } else {
-        nav.classList.remove('bg-dark', 'shadow');
-        var textElements = nav.querySelectorAll('.colornav'); // Substitua 'colornav' pela classe real dos elementos de texto
-        textElements.forEach(function(element) {
-            element.style.color = ''; // Isso remove a cor definida, voltando ao estilo padrão
-        });
-    }
+  if (window.pageYOffset > 200) {
+      nav.classList.add('bg-dark', 'shadow');
+      var textElements = nav.querySelectorAll('.colornav');
+      textElements.forEach(function(element) {
+          element.style.color = 'white';
+      });
+  } else {
+      nav.classList.remove('bg-dark', 'shadow');
+      var textElements = nav.querySelectorAll('.colornav');
+      textElements.forEach(function(element) {
+          element.style.color = '';
+      });
+  }
 });
+
 
 
 
